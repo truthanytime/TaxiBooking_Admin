@@ -1,0 +1,66 @@
+.user-profile-content{
+    border: solid;
+    border-width: 0.03px;
+    border-color: #e5e9f2;
+    height: 100%;
+}
+.shadow-10{
+    box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.2);
+}
+.userinfo-tabs {
+
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y:hidden;
+    .nav-item{
+        a{
+            white-space: nowrap;
+        }
+    }
+}
+.nk-tb-head{
+    background-color: black;
+    font-weight: 700;
+    font-size: 1rem;
+}
+.nk-tb-list{
+    width: 100%;
+}
+.border-1{
+    border-width: 1px;
+}
+.border-2{
+    border-width: 2px;
+}
+.border-3{
+    border-width: 3px;
+}
+.border-4{
+    border-width: 4px;
+}
+.top-10 {
+    top: 10px;
+}
+.right-10 {
+    right: 10px;
+}
+.right-20 {
+    right: 20px;
+}
+.right-30 {
+    right: 30px;
+}
+.right-40 {
+    right: 40px;
+}
+.right-50 {
+    right: 50px;
+}
+.sticky-60{
+    position: sticky;
+    top: 60px;
+    z-index: 95;
+}
+.userprofile-balancleinfo{
+    
+}

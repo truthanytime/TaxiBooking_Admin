@@ -1,0 +1,50 @@
+.trend-option-date {
+    margin-top: 5px;
+
+    span {
+        width: 60px;
+    }
+}
+
+.trend-option-btns {
+    .btn-box {
+        width: 50%;
+        padding: 0 20px;
+        margin-top: 20px;
+        button{
+            width: 100%;
+            display: flow;
+            text-align: center;
+        }
+    }
+}
+@media screen and (min-width: 768px) {
+    .trend-option-btns {
+        .btn-box {
+            width: auto;
+            margin-top: 0; 
+        }
+    }
+}
+.bg-grad-4 {
+    background-color: #ffb72c;
+    background-image: linear-gradient(315deg, #ffb72c 0%, #f57f59 74%);
+}
+.bg-grad-2 {
+    background-color: #875fc0;
+    background-image: linear-gradient(315deg, #875fc0 0%, #5346ba 74%);
+}
+.bg-grad-3 {
+    background-color: #47c5f4;
+    background-image: linear-gradient(315deg, #47c5f4 0%, #6791d9 74%);
+}
+.bg-grad-1 {
+    background-color: #eb4786;
+    background-image: linear-gradient(315deg, #eb4786 0%, #b854a6 74%);
+}
+.card-icon-img{
+    position: absolute;
+    top: 3px; 
+    right: 40px; 
+    font-size: 80px;
+}
